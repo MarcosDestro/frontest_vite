@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from './styles.module.scss';
 // import user from '../../assets/User.png';
-// import key from '../../assets/key.png';
+// import key from '../../assets/Key.png';
 
 export function Home() {
     return (
@@ -20,7 +20,7 @@ export function Home() {
 
                 <div className={ styles.inputForm }>
                     <div className={ styles.contentImg }>
-                        <img src='assets/key.png' alt="Login" />
+                        <img src='assets/Key.png' alt="Login" />
                     </div>
                     <input type="password" placeholder="Digite sua senha"/>
                 </div>

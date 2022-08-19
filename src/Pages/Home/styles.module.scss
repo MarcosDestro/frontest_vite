@@ -37,12 +37,18 @@
             align-items: center;
             margin-bottom: 25px;
 
-            img {
-                max-height: 30px;
+            .contentImg{
                 width: 30px;
+                height: 30px;
                 margin: 0 10px;
+                display: flex;
+                
+                img {
+                    height: 100%;
+                    margin: auto;
+                }
             }
-            
+                
             input {
                 background-color: var(--primary);
                 outline: none;
